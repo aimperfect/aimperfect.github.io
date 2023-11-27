@@ -9,5 +9,6 @@ like this game,
 >PUBG: BATTLEGROUNDS (2017) - https://pubg.com  
 >Rainbow Six Siege (2015) - https://www.ubisoft.com  
 >Escape from Tarkov (2017) - https://arena.tarkov.com  
->Minecraft (2011) - https://www.minecraft.net  
+>Minecraft (2011) - https://www.minecraft.net
+  
 Yeap, Here are some things to improve your game skills!
