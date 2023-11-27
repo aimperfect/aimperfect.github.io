@@ -1,4 +1,2 @@
-Aimperfect
-==========
-
-## Sunrin WebProject!
+# Aimperfect (with @sl-fox)
+## Why we made this
