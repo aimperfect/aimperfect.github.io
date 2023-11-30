@@ -68,9 +68,10 @@
                     // Signed in
                     const user = userCredential.user;
                     // ...
-                    // 이거 제발해라요요요ㅛ용요요요요
-                    //const encrypted = CryptoJS.AES.encrypt(JSON.stringify(data), secretKey).toString();
-                    //const bytes = CryptoJS.AES.decrypt(encrypted, secretKey);
+                    sessionStorage.setItem('logged', 1);
+                    sessionStorage.setItem('email',email);
+                    sessionStorage.setItem(email, password);
+                    window.location.href = "index.html";
                 })
                 .catch((error) => {
                     const errorCode = error.code;
