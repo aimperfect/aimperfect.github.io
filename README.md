@@ -4,7 +4,7 @@
 ### 1. We made aimperfect for FPS Gamers
 FPS games require accuracy for the mouse.  
 like this game,  
->Counter-Strike-Series (2000) - https://www.counter-strike.net  
+>Counter-Strike-Series (2000 ~ ) - https://www.counter-strike.net  
 >Valorant (2020) - https://playvalorant.com  
 >PUBG: BATTLEGROUNDS (2017) - https://pubg.com  
 >Rainbow Six Siege (2015) - https://www.ubisoft.com  
