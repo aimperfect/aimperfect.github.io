@@ -12,4 +12,7 @@ like this game,
 >Escape from Tarkov (2017) - https://arena.tarkov.com  
 >Minecraft (2011) - https://www.minecraft.net
 <br>
-Yeap, Here are some things to improve your game skills!
+Yeap, Here are some things to improve your game skills!  
+
+# <a href="https://boardmix.com/app/editor/t4j8EOFnpAgQ4DCU5Kc2Nw?inviteCode=P5mz3y">Board Mix</a>
+# <a href="https://aimperfect.github.io">Go To Site!</a>
