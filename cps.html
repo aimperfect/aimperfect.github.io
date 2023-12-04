@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CPS Test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                background-color: #21252B;
+                color: #e0e0e0;
+                font-family: sans-serif;
+                user-select: none;
+            }
 
+            .btnframe {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 50%;
+                height: 50%;
+                background-color: #4CB0F9;
+                border-radius : 20px;
+
+            }
+
+            #btnprog {
+                height: 100%;
+                width: 0px;
+                background-color: rgb(67, 168, 239);
+                transition: width 10s linear;
+                border-radius : 20px;
+            }
+
+            #btn {
+                background-color: #00000000;
+                width: 100%;
+                height: 100%;
+                color: white;
+                border: none;
+                font-size: 10vh;
+                transition: color 0.3s;
+                cursor: crosshair;
+            }
+
+            #btn:active {
+                color: #0880D7;
+                transition: color 0s;
+            }
+
+            @media only screen and (max-width: 720px) {
+                .btnframe {
+                    width: 100%
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="btnframe">
+            <div id="btnprog"></div>
+            <button id="btn" class="btnframe">START</button>
+        </div>
+        <script>
+            var clicks = 0;
+            var testTime = 10;
+            var button = document.getElementById("btn");
+            var progressbar = document.getElementById("btnprog");
+            
+            button.onclick = function() {
+                if(clicks == 0) {
+                    setTimeout(timeout, testTime * 1000);
+                    progressbar.style.width = '100%';
+                }
+                clicks ++;
+                button.innerText = clicks + ' clicks';
+            }
+            
+            function timeout() {
+                button.disabled = true;
+                button.innerText = clicks / testTime + ' CPS';
+                button.style.cursor = 'wait';
+                setTimeout(resetbutton, 3000);
+                progressbar.style.transition = 'width 3s';
+                progressbar.style.width = '0';
+            }
+            
+            function resetbutton() {
+                button.disabled = false;
+                button.style.cursor = 'pointer';
+                progressbar.style.transition = 'width 10s linear';
+                clicks = 0;
+            }
+        </script>
+    </body>
+</html>
