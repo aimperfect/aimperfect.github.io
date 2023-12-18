@@ -1,4 +1,4 @@
-# Aimperfect (made by <a href="https://github.com/DumbGooose">@DumbGooose</a> & <a href="https://github.com/sl-fox">@sl-fox</a>)
+# Aimperfect (made by <a href="https://github.com/g00se">@g00se</a> & <a href="https://github.com/sl-fox">@sl-fox</a>)
 ## Why we made this
 ~~I don't know wtf~~
 ### 1. We made aimperfect for FPS Gamers
