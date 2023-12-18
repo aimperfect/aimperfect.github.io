@@ -14,7 +14,7 @@ like this game,
 <br>
 Yeap, Here are some things to improve your game skills!
 
-# 비슷한 서비스들
+# similar services
 >Aimlab - https://aimlabs.com  
 <img src="https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/cc6429cf-5327-4efd-8454-4266a3de823f/1168767427/aim-lab-e1.jpg" alt="aimlab">
 <br>
